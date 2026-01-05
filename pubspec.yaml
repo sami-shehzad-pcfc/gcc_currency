@@ -1,0 +1,18 @@
+name: gcc_currency
+description: GCC currency symbols as Flutter icons and text
+version: 0.0.1
+homepage: https://github.com/fathah/gcc_currency
+
+environment:
+  sdk: ^3.10.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: GCCCurrency
+      fonts:
+        - asset: assets/fonts/gcc_currency.ttf
